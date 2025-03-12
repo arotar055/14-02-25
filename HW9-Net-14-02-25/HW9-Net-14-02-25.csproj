@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>HW9_Net_14_02_25</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+	  
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Drawing.Common" Version="9.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Color\Color.csproj" />
+    <ProjectReference Include="..\Fonts\Fonts.csproj" />
+    <ProjectReference Include="..\interfaces\interfaces.csproj" />
+    <ProjectReference Include="..\Open\Open.csproj" />
+    <ProjectReference Include="..\Save\Save.csproj" />
+  </ItemGroup>
+
+</Project>
